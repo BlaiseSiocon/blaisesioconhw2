@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e0f4c9;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #070a0b;
+    color: #fcf8f8;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+header section {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+
+header section ul{
+    text-align: right;   
+}
+header section ul li{
+    justify-content: center;
+    display: inline-block; 
+}
+.project-banner{
+    font-size: 36px;
+    text-align: center;
+}
+.text {
+    text-align: center;
+    margin: center;
+}
+
+.text h2{
+    margin: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.text h3 {
+    text-align: center;
+    margin: center;
+    font-size: 36px;
+}
+
+.my-image img {
+    width: 400px;
+    margin: 25px;
+}
+.project img{
+    width: 200px;
+    margin:25px;
+}
+.horiseon img{
+    justify-content: center;
+    width: 300px;
+    margin: 25px;
+
+}
+.placeholder1 img{
+    width: 200px;
+    margin: 25px;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 40px 100px;
+    padding: 0px;
+}
+
+.flexbox-container{
+    display: flex;
+    max-height: auto;
+    justify-content: center;
+    
+
+}
+.flexbox-item{
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+    border: 3px solid;
+    background-color: aquamarine
+    ;
+}
+
+.flexbox-item1 {
+    min-height: auto;
+    text-align: center;
+
+
+}
+
+
+.contact{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 40px;
+    text-align: center;
+}
